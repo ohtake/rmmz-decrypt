@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "types": [
+      "node"
+    ],
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build",
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

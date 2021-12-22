@@ -1,0 +1,15 @@
+{
+  "name": "rmmz-decrypt",
+  "main": "build/index.ts",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.15",
+    "typescript": "^4.5.4"
+  }
+}
