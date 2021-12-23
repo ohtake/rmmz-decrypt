@@ -1,6 +1,6 @@
 {
   "name": "rmmz-decrypt",
-  "main": "build/index.ts",
+  "main": "build/decryptMedia.ts",
   "version": "1.0.0",
   "author": "",
   "license": "ISC",

@@ -70,7 +70,7 @@ async function runDecryption(dir: "audio" | "img") {
 
 async function main() {
     if (process.argv.length !== 2 + 2) {
-        console.log("Usage: node build/index.js INPUT OUTPUT");
+        console.log("Usage: node build/decryptMedia.js INPUT OUTPUT");
         process.exit(1);
     }
     inputDir = process.argv[2];
