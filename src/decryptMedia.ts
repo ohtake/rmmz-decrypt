@@ -82,8 +82,8 @@ async function main() {
     console.log("encryption key:", key);
     const audioCount = await runDecryption("audio");
     console.log(`Decrypted ${audioCount} audio files`);
-    const imgCoung = await runDecryption("img");
-    console.log(`Decrypted ${imgCoung} image files`);
+    const imgCount = await runDecryption("img");
+    console.log(`Decrypted ${imgCount} image files`);
 }
 
 main();
